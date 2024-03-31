@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+/* header section  */
+.menu-container{
+    padding: 20px;
+    /* background-color: aquamarine;
+    border: 2px solid tomato; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.menu-item{
+    display: flex;
+    gap: 34px;
+    margin-right: 120px;
+}
+.menu-item li{
+    list-style: none;
+}
+.menu-item li a{
+    text-decoration: none;
+}
+.buy-now-icon{
+    width: 35px;
+    height: 25px;
+}
+.src-icon{
+    width: 35px;
+    height: 25px;
+}
+.menu-logo{
+    margin-left: 120px;
+}
+
+/* header-img section  */
+
+.header-section{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header-cemera-photo{
+    background-image: url("/images/Circle\ design.svg");
+    width: 440px;
+    height: 414px;
+
+}
+.header-info-tittle{
+    width: 582px;
+    height: 133px;
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.header-info-description{
+    width: 505px;
+    height: 60.9px;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+
+}
+.header-btn{
+    margin-top: 26px;
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 41px;
+    background: #E02C6D;
+    border: none;
+    color: #fff;
+
+}
+.header-btn-icon{
+    width: 24px;
+    height: 24px;
+}
+
+
+/* service-section  */
+
+.service-container{
+    width: 60vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid tomato;
+    
+}
+.service-list{
+    display: flex;
+    gap: 34px;
+    align-items: center;
+
+}
+.service{
+    margin-top: 100px;
+}
+.alibaba{
+    width: 55.051px;
+    height: 31.065px;
+  
+}
+.amazon{
+    width: 84px;
+    height: 25.284px;
+    
+}
+.daraz{
+    width: 84px;
+    height: 26px;
+
+}
+.ebay{
+    width: 99.116px;
+    height: 39.607px;
+   
+}
+.rakuten{
+    width: 97.059px;
+    height: 28px;
+   
+}
+.walmart{
+    width: 111px;
+    height: 26px;
+   
+}
+.tarjet{
+    color: #D20100;
+    font-size: 18px;
+    font-weight: 400;
+}
